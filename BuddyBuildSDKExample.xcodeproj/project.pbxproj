@@ -15,6 +15,8 @@
 		83D0EAF81B20EE52001A95A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EAF71B20EE52001A95A8 /* Images.xcassets */; };
 		83D0EAFB1B20EE52001A95A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EAF91B20EE52001A95A8 /* LaunchScreen.xib */; };
 		83D0EB071B20EE52001A95A8 /* BuddyBuildSDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EB061B20EE52001A95A8 /* BuddyBuildSDKExampleTests.m */; };
+		83D0EB111B20EEA9001A95A8 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0EB101B20EEA8001A95A8 /* BuddyBuildSDK.framework */; };
+		83D0EB131B20EEF9001A95A8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0EB121B20EEF9001A95A8 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		83D0EB001B20EE52001A95A8 /* BuddyBuildSDKExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyBuildSDKExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D0EB051B20EE52001A95A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D0EB061B20EE52001A95A8 /* BuddyBuildSDKExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyBuildSDKExampleTests.m; sourceTree = "<group>"; };
+		83D0EB101B20EEA8001A95A8 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		83D0EB121B20EEF9001A95A8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D0EB131B20EEF9001A95A8 /* AssetsLibrary.framework in Frameworks */,
+				83D0EB111B20EEA9001A95A8 /* BuddyBuildSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,7 @@
 		83D0EADB1B20EE52001A95A8 = {
 			isa = PBXGroup;
 			children = (
+				83D0EB121B20EEF9001A95A8 /* AssetsLibrary.framework */,
 				83D0EAE61B20EE52001A95A8 /* BuddyBuildSDKExample */,
 				83D0EB031B20EE52001A95A8 /* BuddyBuildSDKExampleTests */,
 				83D0EAE51B20EE52001A95A8 /* Products */,
@@ -84,6 +91,7 @@
 		83D0EAE61B20EE52001A95A8 /* BuddyBuildSDKExample */ = {
 			isa = PBXGroup;
 			children = (
+				83D0EB101B20EEA8001A95A8 /* BuddyBuildSDK.framework */,
 				83D0EAEB1B20EE52001A95A8 /* AppDelegate.h */,
 				83D0EAEC1B20EE52001A95A8 /* AppDelegate.m */,
 				83D0EAEE1B20EE52001A95A8 /* FirstViewController.h */,
@@ -353,7 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BuddyBuildSDKExample",
+				);
 				INFOPLIST_FILE = BuddyBuildSDKExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,7 +376,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BuddyBuildSDKExample",
+				);
 				INFOPLIST_FILE = BuddyBuildSDKExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
