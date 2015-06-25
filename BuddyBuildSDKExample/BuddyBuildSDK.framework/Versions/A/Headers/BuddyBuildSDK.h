@@ -8,7 +8,4 @@
 @interface BuddyBuildSDK : NSObject
 
 + (void)setup:(id<UIApplicationDelegate>)appDelegate;
-+ (BOOL)handleOpenURL:(NSURL *)url;
-
-+ (void)enableShakeGesture;
 @end

@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		83D0EAEA1B20EE52001A95A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EAE91B20EE52001A95A8 /* main.m */; };
 		83D0EAED1B20EE52001A95A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EAEC1B20EE52001A95A8 /* AppDelegate.m */; };
-		83D0EAF01B20EE52001A95A8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EAEF1B20EE52001A95A8 /* FirstViewController.m */; };
-		83D0EAF31B20EE52001A95A8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EAF21B20EE52001A95A8 /* SecondViewController.m */; };
 		83D0EAF61B20EE52001A95A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EAF41B20EE52001A95A8 /* Main.storyboard */; };
 		83D0EAF81B20EE52001A95A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EAF71B20EE52001A95A8 /* Images.xcassets */; };
 		83D0EAFB1B20EE52001A95A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EAF91B20EE52001A95A8 /* LaunchScreen.xib */; };
 		83D0EB071B20EE52001A95A8 /* BuddyBuildSDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EB061B20EE52001A95A8 /* BuddyBuildSDKExampleTests.m */; };
 		83D0EB111B20EEA9001A95A8 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0EB101B20EEA8001A95A8 /* BuddyBuildSDK.framework */; };
 		83D0EB131B20EEF9001A95A8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0EB121B20EEF9001A95A8 /* AssetsLibrary.framework */; };
+		83D0EB171B210CFB001A95A8 /* iphone6@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EB161B210CFB001A95A8 /* iphone6@2x.PNG */; };
+		83D0EB291B21ECE9001A95A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0EB281B21ECE9001A95A8 /* ViewController.m */; };
+		83D0EB2B1B21EE99001A95A8 /* IMG_0043@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 83D0EB2A1B21EE99001A95A8 /* IMG_0043@2x.PNG */; };
+		83F0A79D1B3C02D900D8158F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F0A79C1B3C02D900D8158F /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,18 +29,26 @@
 			remoteGlobalIDString = 83D0EAE31B20EE52001A95A8;
 			remoteInfo = BuddyBuildSDKExample;
 		};
+		83D0EB391B221D11001A95A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D0EADC1B20EE52001A95A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D0EB351B221BD2001A95A8;
+			remoteInfo = BuddyBuildSDKBuild;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83C7A52E1B3792F90088B5D2 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "../../BuddyBuildSDK/BuddyBuildSDK/Private/logo@2x.png"; sourceTree = "<group>"; };
+		83C7A53B1B3820100088B5D2 /* Private */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Private; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private; sourceTree = "<group>"; };
+		83C7A53C1B3820100088B5D2 /* BBDebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBDebugViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDebugViewController.h; sourceTree = "<group>"; };
+		83C7A53D1B3820100088B5D2 /* BBDebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBDebugViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDebugViewController.m; sourceTree = "<group>"; };
+		83C7A53E1B3820100088B5D2 /* BBDebugViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBDebugViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDebugViewController.xib; sourceTree = "<group>"; };
 		83D0EAE41B20EE52001A95A8 /* BuddyBuildSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyBuildSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D0EAE81B20EE52001A95A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D0EAE91B20EE52001A95A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83D0EAEB1B20EE52001A95A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83D0EAEC1B20EE52001A95A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		83D0EAEE1B20EE52001A95A8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		83D0EAEF1B20EE52001A95A8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		83D0EAF11B20EE52001A95A8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		83D0EAF21B20EE52001A95A8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		83D0EAF51B20EE52001A95A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83D0EAF71B20EE52001A95A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83D0EAFA1B20EE52001A95A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +57,29 @@
 		83D0EB061B20EE52001A95A8 /* BuddyBuildSDKExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyBuildSDKExampleTests.m; sourceTree = "<group>"; };
 		83D0EB101B20EEA8001A95A8 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		83D0EB121B20EEF9001A95A8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		83D0EB161B210CFB001A95A8 /* iphone6@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone6@2x.PNG"; sourceTree = "<group>"; };
+		83D0EB271B21ECE9001A95A8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83D0EB281B21ECE9001A95A8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83D0EB2A1B21EE99001A95A8 /* IMG_0043@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_0043@2x.PNG"; sourceTree = "<group>"; };
+		83D0EB2D1B221A5E001A95A8 /* BBAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBAPI.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBAPI.m; sourceTree = "<group>"; };
+		83D0EB2E1B221A5E001A95A8 /* BBDrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBDrawingView.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDrawingView.m; sourceTree = "<group>"; };
+		83D0EB2F1B221A5E001A95A8 /* BBFeedbackDialogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBFeedbackDialogViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackDialogViewController.m; sourceTree = "<group>"; };
+		83D0EB301B221A5E001A95A8 /* BBFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBFeedbackViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackViewController.m; sourceTree = "<group>"; };
+		83D0EB311B221A5E001A95A8 /* BBIdentityToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBIdentityToken.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBIdentityToken.m; sourceTree = "<group>"; };
+		83D0EB321B221A5E001A95A8 /* BBScreenshotWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBScreenshotWatcher.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBScreenshotWatcher.m; sourceTree = "<group>"; };
+		83D0EB331B221A5E001A95A8 /* BBUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBUtils.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBUtils.m; sourceTree = "<group>"; };
+		83D0EB341B221A5E001A95A8 /* BuddyBuildSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BuddyBuildSDK.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BuddyBuildSDK.m; sourceTree = "<group>"; };
+		83D0EB3B1B221D28001A95A8 /* BBFeedbackDialogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBFeedbackDialogViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackDialogViewController.xib; sourceTree = "<group>"; };
+		83D0EB3C1B221D28001A95A8 /* BBFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBFeedbackViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackViewController.xib; sourceTree = "<group>"; };
+		83E11AA41B2528F70004F917 /* BBAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBAPI.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBAPI.h; sourceTree = "<group>"; };
+		83E11AA51B2528F70004F917 /* BBDrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBDrawingView.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDrawingView.h; sourceTree = "<group>"; };
+		83E11AA61B2528F70004F917 /* BBFeedbackDialogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBFeedbackDialogViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackDialogViewController.h; sourceTree = "<group>"; };
+		83E11AA71B2528F70004F917 /* BBFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBFeedbackViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackViewController.h; sourceTree = "<group>"; };
+		83E11AA81B2528F70004F917 /* BBIdentityToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBIdentityToken.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBIdentityToken.h; sourceTree = "<group>"; };
+		83E11AA91B2528F70004F917 /* BBScreenshotWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBScreenshotWatcher.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBScreenshotWatcher.h; sourceTree = "<group>"; };
+		83E11AAA1B2528F70004F917 /* BBUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBUtils.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBUtils.h; sourceTree = "<group>"; };
+		83F0A79B1B3C02D900D8158F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		83F0A79C1B3C02D900D8158F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +124,20 @@
 		83D0EAE61B20EE52001A95A8 /* BuddyBuildSDKExample */ = {
 			isa = PBXGroup;
 			children = (
+				83D0EB2C1B221A1A001A95A8 /* SDK Source (Not compiled) */,
+				83D0EB2A1B21EE99001A95A8 /* IMG_0043@2x.PNG */,
 				83D0EB101B20EEA8001A95A8 /* BuddyBuildSDK.framework */,
 				83D0EAEB1B20EE52001A95A8 /* AppDelegate.h */,
 				83D0EAEC1B20EE52001A95A8 /* AppDelegate.m */,
-				83D0EAEE1B20EE52001A95A8 /* FirstViewController.h */,
-				83D0EAEF1B20EE52001A95A8 /* FirstViewController.m */,
-				83D0EAF11B20EE52001A95A8 /* SecondViewController.h */,
-				83D0EAF21B20EE52001A95A8 /* SecondViewController.m */,
+				83D0EB161B210CFB001A95A8 /* iphone6@2x.PNG */,
 				83D0EAF41B20EE52001A95A8 /* Main.storyboard */,
 				83D0EAF71B20EE52001A95A8 /* Images.xcassets */,
 				83D0EAF91B20EE52001A95A8 /* LaunchScreen.xib */,
 				83D0EAE71B20EE52001A95A8 /* Supporting Files */,
+				83D0EB271B21ECE9001A95A8 /* ViewController.h */,
+				83D0EB281B21ECE9001A95A8 /* ViewController.m */,
+				83F0A79B1B3C02D900D8158F /* SettingsViewController.h */,
+				83F0A79C1B3C02D900D8158F /* SettingsViewController.m */,
 			);
 			path = BuddyBuildSDKExample;
 			sourceTree = "<group>";
@@ -132,7 +168,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		83D0EB2C1B221A1A001A95A8 /* SDK Source (Not compiled) */ = {
+			isa = PBXGroup;
+			children = (
+				83C7A53B1B3820100088B5D2 /* Private */,
+				83C7A53C1B3820100088B5D2 /* BBDebugViewController.h */,
+				83C7A53D1B3820100088B5D2 /* BBDebugViewController.m */,
+				83C7A53E1B3820100088B5D2 /* BBDebugViewController.xib */,
+				83C7A52E1B3792F90088B5D2 /* logo@2x.png */,
+				83E11AA41B2528F70004F917 /* BBAPI.h */,
+				83E11AA51B2528F70004F917 /* BBDrawingView.h */,
+				83E11AA61B2528F70004F917 /* BBFeedbackDialogViewController.h */,
+				83E11AA71B2528F70004F917 /* BBFeedbackViewController.h */,
+				83E11AA81B2528F70004F917 /* BBIdentityToken.h */,
+				83E11AA91B2528F70004F917 /* BBScreenshotWatcher.h */,
+				83E11AAA1B2528F70004F917 /* BBUtils.h */,
+				83D0EB2D1B221A5E001A95A8 /* BBAPI.m */,
+				83D0EB2E1B221A5E001A95A8 /* BBDrawingView.m */,
+				83D0EB2F1B221A5E001A95A8 /* BBFeedbackDialogViewController.m */,
+				83D0EB3B1B221D28001A95A8 /* BBFeedbackDialogViewController.xib */,
+				83D0EB301B221A5E001A95A8 /* BBFeedbackViewController.m */,
+				83D0EB3C1B221D28001A95A8 /* BBFeedbackViewController.xib */,
+				83D0EB311B221A5E001A95A8 /* BBIdentityToken.m */,
+				83D0EB321B221A5E001A95A8 /* BBScreenshotWatcher.m */,
+				83D0EB331B221A5E001A95A8 /* BBUtils.m */,
+				83D0EB341B221A5E001A95A8 /* BuddyBuildSDK.m */,
+			);
+			name = "SDK Source (Not compiled)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		83D0EB351B221BD2001A95A8 /* BuddyBuildSDKBuild */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 83D0EB361B221BD3001A95A8 /* Build configuration list for PBXLegacyTarget "BuddyBuildSDKBuild" */;
+			buildPhases = (
+			);
+			buildToolPath = "./quick-build.sh";
+			buildWorkingDirectory = ../BuddyBuildSDK;
+			dependencies = (
+			);
+			name = BuddyBuildSDKBuild;
+			passBuildSettingsInEnvironment = 1;
+			productName = BuddyBuildSDKBuild;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		83D0EAE31B20EE52001A95A8 /* BuddyBuildSDKExample */ = {
@@ -146,6 +228,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				83D0EB3A1B221D11001A95A8 /* PBXTargetDependency */,
 			);
 			name = BuddyBuildSDKExample;
 			productName = BuddyBuildSDKExample;
@@ -186,6 +269,9 @@
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 83D0EAE31B20EE52001A95A8;
 					};
+					83D0EB351B221BD2001A95A8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = 83D0EADF1B20EE52001A95A8 /* Build configuration list for PBXProject "BuddyBuildSDKExample" */;
@@ -203,6 +289,7 @@
 			targets = (
 				83D0EAE31B20EE52001A95A8 /* BuddyBuildSDKExample */,
 				83D0EAFF1B20EE52001A95A8 /* BuddyBuildSDKExampleTests */,
+				83D0EB351B221BD2001A95A8 /* BuddyBuildSDKBuild */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +301,8 @@
 			files = (
 				83D0EAF61B20EE52001A95A8 /* Main.storyboard in Resources */,
 				83D0EAFB1B20EE52001A95A8 /* LaunchScreen.xib in Resources */,
+				83D0EB171B210CFB001A95A8 /* iphone6@2x.PNG in Resources */,
+				83D0EB2B1B21EE99001A95A8 /* IMG_0043@2x.PNG in Resources */,
 				83D0EAF81B20EE52001A95A8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,10 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D0EAF31B20EE52001A95A8 /* SecondViewController.m in Sources */,
+				83D0EB291B21ECE9001A95A8 /* ViewController.m in Sources */,
 				83D0EAED1B20EE52001A95A8 /* AppDelegate.m in Sources */,
-				83D0EAF01B20EE52001A95A8 /* FirstViewController.m in Sources */,
 				83D0EAEA1B20EE52001A95A8 /* main.m in Sources */,
+				83F0A79D1B3C02D900D8158F /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +343,11 @@
 			isa = PBXTargetDependency;
 			target = 83D0EAE31B20EE52001A95A8 /* BuddyBuildSDKExample */;
 			targetProxy = 83D0EB011B20EE52001A95A8 /* PBXContainerItemProxy */;
+		};
+		83D0EB3A1B221D11001A95A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D0EB351B221BD2001A95A8 /* BuddyBuildSDKBuild */;
+			targetProxy = 83D0EB391B221D11001A95A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,7 +460,7 @@
 					"$(PROJECT_DIR)/BuddyBuildSDKExample",
 				);
 				INFOPLIST_FILE = BuddyBuildSDKExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -380,8 +474,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BuddyBuildSDKExample",
 				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = BuddyBuildSDKExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -421,6 +516,36 @@
 			};
 			name = Release;
 		};
+		83D0EB371B221BD3001A95A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83D0EB381B221BD3001A95A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,6 +565,7 @@
 				83D0EB0C1B20EE52001A95A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D0EB0D1B20EE52001A95A8 /* Build configuration list for PBXNativeTarget "BuddyBuildSDKExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +574,16 @@
 				83D0EB0F1B20EE52001A95A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D0EB361B221BD3001A95A8 /* Build configuration list for PBXLegacyTarget "BuddyBuildSDKBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D0EB371B221BD3001A95A8 /* Debug */,
+				83D0EB381B221BD3001A95A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

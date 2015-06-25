@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BUDDYBUILD_ENVIRONMENT</key>
+	<string>preprod</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -40,6 +42,12 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>BUDDYBUILD_ENDPOINT</key>
+	<string>https://buddybuild-chris.ngrok.com</string>
+	<key>BUDDYBUILD_APP_ID</key>
+	<string>2343234</string>
+	<key>BUDDYBUILD_BUILD_ID</key>
+	<string>324334423</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
